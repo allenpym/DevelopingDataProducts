@@ -1,0 +1,22 @@
+---
+title: "Developing Data Products Project - Regression"
+author: "allenpym"
+date: "October 23, 2015"
+output: html_document
+---
+
+This is my course project for Developing Data Products on Coursera. It is an app that explores the regression technique and help users understand regression better. For simplicity and illustration purpose, simple linear regression is considered. You can find the app here: 
+
+<https://allenpym.shinyapps.io/Class>
+
+The code and documentation for this app can be found here: 
+
+<https://github.com/allenpym/DevelopingDataProducts>
+
+By specify different options on the simulated data and true model, user will see the regression fit on the data. 
+
+In general, note that   
+1. The larger sample size, the better regression fit.   
+2. The smaller standard deviation of error term, the better regression fit.   
+3. User can change the intercept and slope of the true underlying model, as well as the range of x variable.  
+4. Once hit "Plot!", the figure will show/update the fitted model and the true model, so it is straight forward to compare them and see how well the model fit is. 
